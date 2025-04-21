@@ -1,7 +1,9 @@
 import { FunctionComponent } from "react";
 import { getBooks } from "../services/bookAPI";
 
+const books = JSON.stringify(getBooks().toString());
+
 export const Container: FunctionComponent = () => {
-  const books = getBooks();
+  console.log(`books: ${books}`);
   return <>{books}</>;
 };

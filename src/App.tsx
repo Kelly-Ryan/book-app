@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+import logo from "./logo.svg";
 import "./App.css";
 import { Container } from "./components/Container";
 
@@ -20,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Container></Container>
+      <Container />
     </div>
   );
 }
